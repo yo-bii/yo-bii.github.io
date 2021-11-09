@@ -44,17 +44,17 @@ header {
     border-right: 1px solid #e0e0e0;
 }
 
-header > h1 {
+header>h1 {
     height: 10%;
     margin-top: 15%;
     text-align: center;
 }
 
-header > h1 > a {
+header>h1>a {
     line-height: 10vh;
 }
 
-header > h1 > a > img {
+header>h1>a>img {
     width: 50%;
 }
 
@@ -99,21 +99,21 @@ header .contact {
 
 }
 
-.contact > dl {
+.contact>dl {
     margin-left: 15%
 }
 
-.contact > dl > dt {
+.contact>dl>dt {
     margin: 2% 0;
     font-size: 0.6vw;
 }
 
-.contact > dl > dt + dd {
+.contact>dl>dt+dd {
     margin: 1% 0;
     font-size: 0.5vw;
 }
 
-.contact > dl > dt + dd + dd {
+.contact>dl>dt+dd+dd {
     font-size: 0.5vw;
 }
 
@@ -121,7 +121,7 @@ header .contact {
 audio {
     position: absolute;
     top: 2%;
-    left: :0;
+    left: 0;
     z-index: 200;
     height: 20px;
 
@@ -129,7 +129,7 @@ audio {
 
 #fullpage {
     width: 80vw !important;
-    height: 100vh !impotant;
+    height: 100vh impotant;
     float: right;
     background: #fff !important;
     position: relative;
@@ -150,14 +150,14 @@ audio {
 
 .page1wrap {}
 
-.page1 > div > .page1wrap {
+.page1>div>.page1wrap {
     width: 40%;
     height: 100%;
     float: left;
     position: relative;
 }
 
-.page1 > div > div#swiper1 {
+.page1>div>div#swiper1 {
     width: 55%;
     height: 100vh;
     float: left;
@@ -167,18 +167,18 @@ audio {
     width: 100%;
 }
 
-.page1 > div > div:first-child > div:first-child,
-.page2 > div > div,
-.page3 > div > div {
+.page1>div>div:first-child>div:first-child,
+.page2>div>div,
+.page3>div>div {
     width: 100% !important;
     height: 20% !important;
     margin: auto !important;
     position: relative;
 }
 
-.page1 div > span,
-.page2 div > span,
-.page3 div > span {
+.page1 div>span,
+.page2 div>span,
+.page3 div>span {
     width: 100% !important;
     margin: 8vh 0 3vh 0 !important;
     font-family: Roboto-Light !important;
@@ -189,17 +189,17 @@ audio {
     left: 0;
 }
 
-.page1 > div > div:first-child > div + div,
-.page2 > div > div + div,
-.page3 > div > div + div {
+.page1>div>div:first-child>div+div,
+.page2>div>div+div,
+.page3>div>div+div {
     width: 100% !important;
     height: 100% !important;
     margin: auto !important;
 }
 
-.page1 div > p,
-.page2 div > p,
-.page3 div > p {
+.page1 div>p,
+.page2 div>p,
+.page3 div>p {
     font-family: GmarketSansTTFLight !important;
     font-size: 1vw !important;
     text-align: left !important;
@@ -210,7 +210,7 @@ audio {
     margin-top: 10%
 }
 
-.page1 div > p + video + p {
+.page1 div>p+video+p {
     position: absolute;
     bottom: 10%;
     left: 0;
@@ -218,21 +218,21 @@ audio {
 }
 
 /*.page1 div > p + p,*/
-.page2 div > p + p,
-.page3 div > p + p {
+.page2 div>p+p,
+.page3 div>p+p {
     margin: 5% 0 !important;
     font-family: Roboto-Light !important;
     font-size: 1vw !important;
     text-align: left !important;
 }
 
-.page1 > div h2 {
+.page1>div h2 {
     font-family: Roboto-Light !important;
     font-weight: 600 !important;
     font-size: 1.5vw !important;
 }
 
-.page1 > div > h2 + p {
+.page1>div>h2+p {
     width: 50%;
 }
 

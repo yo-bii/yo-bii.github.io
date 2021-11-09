@@ -43,7 +43,7 @@ header {
     top: 0;
 }
 
-header > h1 {
+header>h1 {
     height: 10%;
     background: #777;
 }
@@ -86,19 +86,19 @@ header .contact {
 
 }
 
-.contact > dl {
+.contact>dl {
     margin-left: 11%
 }
 
-.contact > dl > dt {
+.contact>dl>dt {
     margin: 2% 0;
 }
 
-.contact > dl > dt + dd {
+.contact>dl>dt+dd {
     margin: 1% 0;
 }
 
-.contact > dl > dt + dd + dd {}
+.contact>dl>dt+dd+dd {}
 
 /*right wrap*/
 
@@ -133,13 +133,13 @@ header .contact {
     margin: 5% 0 !important;
 }
 
-.page1 > div > h2 {}
+.page1>div>h2 {}
 
-.page1 > div > h2 + p {
+.page1>div>h2+p {
     width: 50%;
 }
 
-.page1 > div > h2 + p + p {
+.page1>div>h2+p+p {
     width: 50%;
 }
 

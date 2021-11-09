@@ -44,17 +44,17 @@ header {
     border-right: 1px solid #e0e0e0;
 }
 
-header > h1 {
+header>h1 {
     height: 10%;
     margin-top: 15%;
     text-align: center;
 }
 
-header > h1 > a {
+header>h1>a {
     line-height: 10vh;
 }
 
-header > h1 > a > img {
+header>h1>a>img {
     width: 50%;
 }
 
@@ -105,21 +105,21 @@ header .contact {
 
 }
 
-.contact > dl {
+.contact>dl {
     margin-left: 15%
 }
 
-.contact > dl > dt {
+.contact>dl>dt {
     margin: 2% 0;
     font-size: 0.6vw;
 }
 
-.contact > dl > dt + dd {
+.contact>dl>dt+dd {
     margin: 1% 0;
     font-size: 0.5vw;
 }
 
-.contact > dl > dt + dd + dd {
+.contact>dl>dt+dd+dd {
     font-size: 0.5vw;
 }
 
@@ -136,7 +136,7 @@ header .contact {
     margin: auto;
 }
 
-.page > div:first-child {
+.page>div:first-child {
     width: 100%;
     margin: 5% 0.5% 0.5% 0.5%;
     font-family: Roboto-Light;
