@@ -1,0 +1,172 @@
+/*set*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+@font-face {
+    font-family: 'GmarketSansTTFLight';
+    src: url(../font/GmarketSansTTFLight.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../font/Roboto-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*header*/
+header {
+    z-index: 100;
+    width: 10%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid #e0e0e0;
+}
+
+header > h1 {
+    height: 10%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+header > h1 > a {
+    line-height: 10vh;
+}
+
+header > h1 > a > img {
+    width: 50%;
+}
+
+
+nav {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    margin-top: 40%;
+    font-family: Roboto-Light;
+    font-weight: 300;
+    font-size: 0.9vw;
+}
+
+nav a:hover {
+    color: #004DC9;
+}
+
+nav .mainmenu {}
+
+nav .mainmenu li {
+    margin: 2% 0;
+}
+
+
+
+nav .mainmenu a {}
+
+nav .submenu {
+    display: none;
+}
+
+nav .submenu a {
+    font-size: 0.6vw;
+}
+
+nav .menu3 {
+    color: #004DC9;
+}
+
+header .contact {
+    position: fixed;
+    bottom: 7%;
+    left: 0;
+    width: 10vw;
+    font-family: Roboto-Light;
+    font-weight: 300;
+
+
+}
+
+.contact > dl {
+    margin-left: 15%
+}
+
+.contact > dl > dt {
+    margin: 2% 0;
+    font-size: 0.6vw;
+}
+
+.contact > dl > dt + dd {
+    margin: 1% 0;
+    font-size: 0.5vw;
+}
+
+.contact > dl > dt + dd + dd {
+    font-size: 0.5vw;
+}
+
+/*right wrap*/
+#fullpage {
+    width: 90%;
+    float: right;
+    height: 100%;
+    background: #fff;
+    position: relative;
+}
+
+audio {
+    position: absolute;
+    top: 0.5%;
+    margin-left: 6%;
+    z-index: 200;
+    height: 20px;
+
+}
+
+.page {
+    width: 90%;
+    margin: auto;
+}
+
+.page > div:first-child {
+    width: 100%;
+    margin: 5% 0.5% 0.5% 0.5%;
+    font-family: Roboto-Light;
+    font-weight: 300;
+    font-size: 0.8vw;
+}
+
+.content {}
+
+.content > ul {
+    width: 100%;
+}
+
+.content > ul > li {
+    width: 24%;
+    float: left;
+    margin: 0.5% 0.5%;
+}
+
+.content > ul > li > a > img {
+    width: 100%;
+}

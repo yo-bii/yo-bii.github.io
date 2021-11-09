@@ -1,0 +1,149 @@
+/*set*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+@font-face {
+    font-family: 'GmarketSansTTFLight';
+    src: url(../font/GmarketSansTTFLight.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../font/Roboto-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*header*/
+header {
+    z-index: 100;
+    width: 10%;
+    height: 100vh;
+    background: #999;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+header > h1 {
+    height: 10%;
+    background: #777;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    margin-top: 30%;
+    font-family: Roboto-Light;
+    font-weight: 300;
+    font-size: 0.9vw;
+}
+
+nav .mainmenu {}
+
+nav .mainmenu li {
+    margin: 2% 0;
+}
+
+nav .mainmenu a {}
+
+nav .submenu {
+    display: none;
+}
+
+nav .submenu a {
+    font-size: 0.6vw;
+}
+
+header .contact {
+    position: fixed;
+    bottom: 3%;
+    left: 0;
+    background: #888;
+    width: 10vw;
+    font-family: Roboto-Light;
+    font-weight: 300;
+    font-size: 0.5vw;
+
+}
+
+.contact > dl {
+    margin-left: 11%
+}
+
+.contact > dl > dt {
+    margin: 2% 0;
+}
+
+.contact > dl > dt + dd {
+    margin: 1% 0;
+}
+
+.contact > dl > dt + dd + dd {}
+
+/*right wrap*/
+
+.page1,
+.page2,
+.page3 {
+    width: 90%;
+    float: right;
+    height: 100vh;
+    background: #fff;
+}
+
+
+.page1 div,
+.page2 div,
+.page3 div {
+    width: 80%;
+    margin: auto;
+    font-family: Roboto-Light;
+    font-weight: 300;
+    font-size: 1vw;
+    text-align: left;
+}
+
+.page1 div p,
+.page2 div p,
+.page3 div p {
+    margin: 5% 0;
+}
+
+.page1 {
+    background-color: darkseagreen;
+
+}
+
+.page1 > div > h2 {}
+
+.page1 > div > h2 + p {
+    width: 50%;
+}
+
+.page1 > div > h2 + p + p {
+    width: 50%;
+}
+
+.page2 {}
+
+.page3 {}

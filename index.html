@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yo_bii</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style_main.css" type="text/css">
+    <link rel="stylesheet" href="css/fullpage.css" type="text/css">
+    <script src="script/jquery-1.12.3.js"></script>
+    <script src="script/fullpage.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <div id="fp-nav" class="fp-right">
+        <ul>
+            <li><a href="#page1" class="active"><span class="fp-sr-only">fullPage</span><span></span></a>
+                <div class="fp-tooltip fp-right">fullPage</div>
+            </li>
+            <li><a href="#page2" class="active"><span class="fp-sr-only">Open</span><span></span></a>
+                <div class="fp-tooltip fp-right">Open</div>
+            </li>
+            <li><a href="#page3" class="active"><span class="fp-sr-only">Easy</span><span></span></a>
+                <div class="fp-tooltip fp-right">Easy</div>
+            </li>
+            <!--
+            <li><a href="#page4" class="active"><span class="fp-sr-only">Touch</span><span></span></a>
+                <div class="fp-tooltip fp-right">Touch</div>
+            </li>
+-->
+        </ul>
+    </div>
+    <!--막대-->
+    <header>
+        <h1>
+            <a href="index.html"><img src="img/LOGO/logo.svg" alt="로고이미지"></a>
+        </h1>
+        <nav>
+            <ul class="mainmenu">
+                <li>
+                    <a href="index.html">PROFILE</a>
+                </li>
+                <li>
+                    <a class="sub" href="#">PORTFOLIO</a>
+                    <ul class="submenu">
+                        <li><a href="index2.html">VIDEO</a></li>
+                        <li><a href="index3.html">2D GRAPHIC</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="index4.html">PHOTO</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contact">
+            <dl>
+                <dt>CONTACT</dt>
+                <dd>e-mail : jcy0505@gmail.com</dd>
+                <dd>mobile : 010-6760-0560</dd>
+            </dl>
+        </div>
+    </header>
+    <!--    header-->
+    <div id="fullpage">
+        <audio controls loop>
+            <source src="bgm/Book%20Bag%20-%20E's%20Jammy%20Jams.mp3" type="audio/mp3">
+        </audio>
+        <div class="page1 section">
+            <div class="page1wrap">
+                <div>
+                    <span class="title">반갑습니다.</span>
+                </div>
+                <div>
+                    <p>
+                        안녕하세요 "감각적인 영상제작자" 정찬엽입니다.<br>
+                        영화를 좋아해서 영상일을 시작하게 되었습니다.
+                    </p>
+                    <video controls poster="img/POSTER/poster_self.jpg" alt="자기소개영상">
+                        <source src="https://drive.google.com/uc?export=download&amp;id=1MEWChESs28EPBkxlHNhCTV1SEEYZkZd7" type="video/mp4">
+                    </video>
+                    <p>&#42;이 홈페이지는 저를 소개하기 위해 직접 제작하였습니다.<br><br>
+                        아래로 스크롤하세요.</p>
+                </div>
+            </div>
+            <div id="swiper1">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/ETC/resume1.jpeg" alt="이력서이미지1"></div>
+                        <div class="swiper-slide"><img src="img/ETC/resume2.jpeg" alt="이력서이미지2"></div>
+                        <div class="swiper-slide"><img src="img/ETC/resume3.jpeg" alt="이력서이미지3"></div>
+                        <div class="swiper-slide"><img src="img/ETC/resume4.jpeg" alt="이력서이미지4"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="page2 section">
+            <div>
+                <span class="title">INFO</span>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo commodi minus nulla, maiores corrupti perspiciatis est explicabo sit, ratione, cupiditate doloremque obcaecati! Enim pariatur ad doloribus ut, magni quas possimus!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="page3 section">
+            <div>
+                <span class="title">VISION</span>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo commodi minus nulla, maiores corrupti perspiciatis est explicabo sit, ratione, cupiditate doloremque obcaecati! Enim pariatur ad doloribus ut, magni quas possimus!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        new fullpage('#fullpage', {
+            navigation: true,
+            responsiveWidth: 700,
+            anchors: ['home', 'about-us', 'contact'],
+            parallax: true,
+            onLeave: function(origin, destination, direction) {
+                console.log("Leaving section" + origin.index);
+            },
+        });
+
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+</body>
+
+</html>
