@@ -215,6 +215,7 @@ audio {
     bottom: 10%;
     left: 0;
     font-weight: 600 !important;
+    font-size: medium !important;
 }
 
 /*.page1 div > p + p,*/
