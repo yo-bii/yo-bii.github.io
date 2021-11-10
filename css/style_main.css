@@ -63,8 +63,8 @@ nav {
     margin: auto;
     text-align: right;
     margin-top: 40%;
-    font-family: Roboto-Light;
-    font-weight: 300;
+    font-family: GmarketSansTTFLight;
+    font-weight: 600;
     font-size: 0.9vw;
 }
 
@@ -253,9 +253,10 @@ audio {
 /* .page2 div>p+p, */
 .page3 div>p+p {
     margin: 5% 0 !important;
-    font-family: Roboto-Light !important;
+    font-family: GmarketSansTTFLight !important;
     font-size: 1vw !important;
     text-align: left !important;
+    font-weight:bold;
 }
 
 

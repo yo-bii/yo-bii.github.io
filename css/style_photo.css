@@ -64,8 +64,8 @@ nav {
     margin: auto;
     text-align: right;
     margin-top: 40%;
-    font-family: Roboto-Light;
-    font-weight: 300;
+    font-family: GmarketSansTTFLight;
+    font-weight: 600;
     font-size: 0.9vw;
 }
 
@@ -151,7 +151,7 @@ audio {
     width: 100%;
     margin: 5% 0.5% 0.5% 0.5%;
     font-family: Roboto-Light;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 0.8vw;
 }
 
