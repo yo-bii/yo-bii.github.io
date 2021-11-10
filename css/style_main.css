@@ -218,14 +218,6 @@ audio {
     font-size: 0.8vw !important;
 }
 
-/*.page1 div > p + p,*/
-.page2 div>p+p,
-.page3 div>p+p {
-    margin: 5% 0 !important;
-    font-family: Roboto-Light !important;
-    font-size: 1vw !important;
-    text-align: left !important;
-}
 
 .page1>div h2 {
     font-family: Roboto-Light !important;
@@ -235,6 +227,19 @@ audio {
 
 .page1>div>h2+p {
     width: 50%;
+}
+
+/*.page1 div > p + p,*/
+.page2 div>p+p,
+.page3 div>p+p {
+    margin: 5% 0 !important;
+    font-family: Roboto-Light !important;
+    font-size: 1vw !important;
+    text-align: left !important;
+}
+
+.page2 div {
+    display: none;
 }
 
 /*swiper*/

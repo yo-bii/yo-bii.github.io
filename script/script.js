@@ -9,8 +9,7 @@ $(document).ready(function () {
             a = 0
         }
     })
-    //    $("#fp-nav ul li a.active span, #fp-nav ul li a.active span").click(function () {
-    //        $("#fp-nav ul li a>span+span").removeClass("on1"); $(this).addClass("on1");
-    //    })
-
+    $(".page2").mouseover(function(){
+        $(".page2 div").stop().show(1000);
+    })
 })
