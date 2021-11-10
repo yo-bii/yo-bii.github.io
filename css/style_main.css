@@ -167,9 +167,7 @@ audio {
     width: 100%;
 }
 
-.page1>div>div:first-child>div:first-child,
-.page2>div>div,
-.page3>div>div {
+.title{
     width: 100% !important;
     height: 20% !important;
     margin: auto !important;
@@ -190,7 +188,6 @@ audio {
 }
 
 .page1>div>div:first-child>div+div,
-.page2>div>div+div,
 .page3>div>div+div {
     width: 100% !important;
     height: 100% !important;
@@ -198,7 +195,6 @@ audio {
 }
 
 .page1 div>p,
-.page2 div>p,
 .page3 div>p {
     font-family: GmarketSansTTFLight !important;
     font-size: 1vw !important;
@@ -229,8 +225,31 @@ audio {
     width: 50%;
 }
 
+.Question1,
+.Question2 {
+    width: 46% !important;
+    height: 100% !important;
+    float: left !important;
+    margin: 0 2% 0 0;
+}
+
+.page2 .Q {
+    font-family: GmarketSansTTFLight !important;
+    font-size: 1vw !important;
+    text-align: left !important;
+    margin-top: 8%;
+}
+
+.page2 .A {
+    font-family: GmarketSansTTFLight !important;
+    font-size: 1vw !important;
+    text-align: left !important;
+    font-weight: 800;
+    margin: 3% 0;
+}
+
 /*.page1 div > p + p,*/
-.page2 div>p+p,
+/* .page2 div>p+p, */
 .page3 div>p+p {
     margin: 5% 0 !important;
     font-family: Roboto-Light !important;
