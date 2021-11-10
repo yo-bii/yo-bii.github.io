@@ -9,7 +9,4 @@ $(document).ready(function () {
             a = 0
         }
     })
-    $(".page2").mouseover(function(){
-        $(".page2 div").stop().show(1000);
-    })
 })
